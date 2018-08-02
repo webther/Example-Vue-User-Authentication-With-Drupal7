@@ -6,17 +6,17 @@
 </template>
 
 <script>
-  import DashboardGreeting from '@/components/dashboard/DashboardGreeting'
+import DashboardGreeting from '@/components/dashboard/DashboardGreeting'
 
-  export default {
-    name: 'DashboardIndex',
-    components: {
-      DashboardGreeting
-    },
-    data() {
-      return {}
-    }
+export default {
+  name: 'DashboardIndex',
+  components: {
+    DashboardGreeting
+  },
+  data () {
+    return {}
   }
+}
 </script>
 
 <style scoped>

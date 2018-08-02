@@ -5,19 +5,19 @@
 </template>
 
 <script>
-  export default {
-    name: 'UserLogout',
-    components: {},
-    data() {
-      return {}
-    },
-    created() {
-      this.$store.dispatch('user/USER_LOGOUT')
-        .then(() => {
-          this.$router.push('/')
-        })
-    }
+export default {
+  name: 'UserLogout',
+  components: {},
+  data () {
+    return {}
+  },
+  created () {
+    this.$store.dispatch('user/USER_LOGOUT')
+      .then(() => {
+        this.$router.push('/')
+      })
   }
+}
 </script>
 
 <style scoped>

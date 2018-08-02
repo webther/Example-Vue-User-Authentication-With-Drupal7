@@ -1,5 +1,5 @@
-import api from "../../api/api";
-import axios from "axios/index";
+import api from '../../api/api'
+import axios from 'axios/index'
 
 const state = {
   token: sessionStorage.getItem('token') || '',
@@ -57,5 +57,5 @@ export default {
   state,
   getters,
   actions,
-  mutations,
+  mutations
 }

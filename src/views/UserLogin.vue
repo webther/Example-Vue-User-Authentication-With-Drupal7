@@ -6,17 +6,17 @@
 </template>
 
 <script>
-  import UserLoginForm from '@/components/user/UserLoginForm'
+import UserLoginForm from '@/components/user/UserLoginForm'
 
-  export default {
-    name: 'UserLogin',
-    components: {
-      UserLoginForm
-    },
-    data() {
-      return {}
-    }
+export default {
+  name: 'UserLogin',
+  components: {
+    UserLoginForm
+  },
+  data () {
+    return {}
   }
+}
 </script>
 
 <style scoped>

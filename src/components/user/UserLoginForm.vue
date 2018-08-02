@@ -20,27 +20,27 @@
 </template>
 
 <script>
-  export default {
-    name: 'UserLoginFrom',
-    data() {
-      return {
-        username: 'api',
-        password: 'api',
-      }
-    },
-    methods: {
-      login: function () {
-        const { username, password } = this
-        this.$store.dispatch('user/USER_LOGIN', { username, password })
-          .then(() => {
-            this.$router.push('/')
-          })
-          .catch(function (err) {
-            console.log(err);
-          })
-      }
+export default {
+  name: 'UserLoginFrom',
+  data () {
+    return {
+      username: 'api',
+      password: 'api'
+    }
+  },
+  methods: {
+    login: function () {
+      const { username, password } = this
+      this.$store.dispatch('user/USER_LOGIN', { username, password })
+        .then(() => {
+          this.$router.push('/')
+        })
+        .catch(function (err) {
+          console.log(err)
+        })
     }
   }
+}
 </script>
 
 <style scoped>

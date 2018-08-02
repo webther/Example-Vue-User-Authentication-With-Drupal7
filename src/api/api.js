@@ -39,4 +39,4 @@ const system = {
 export default {
   user,
   system
-};
+}

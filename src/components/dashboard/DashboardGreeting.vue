@@ -5,19 +5,19 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 
-  export default {
-    name: 'DashboardGreeting',
-    data() {
-      return {}
-    },
-    computed: {
-      ...mapGetters({
-        user: 'user/user'
-      })
-    }
+export default {
+  name: 'DashboardGreeting',
+  data () {
+    return {}
+  },
+  computed: {
+    ...mapGetters({
+      user: 'user/user'
+    })
   }
+}
 </script>
 
 <style scoped>
